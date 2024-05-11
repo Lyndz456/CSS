@@ -1,0 +1,102 @@
+/*EXTERNAL CSS*/
+#box6{
+    width: 360px ;
+    height: 120px;
+    background: brown;
+    font-size: 22px;
+    text-align: center;
+
+    animation: mySlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    animation-play-state: running;
+}
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+@keyframes myRotate{
+    100%{trans}
+}
+
+
+
+h2{
+    margin:0px;
+    padding-top: 0px;
+    top: 0px;
+}
+a:link{
+    color: orange;
+    
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: rgb(87, 59, 6);
+}
+
+body{ 
+   /* background-color: bisque; */
+    background:linear-gradient( white,black);/*Blends two colors*/
+    background-repeat: no-repeat;  
+    background-attachment: fixed; /*Ensures the color changes with change in the adjustment of the size of the page*/      
+   
+    /*background-image:url(images.html/pexels-pragyanbezbo-1697570.jpg);
+    background-position: center;
+    background-size: cover;/*reduces the image to fit the page size while adjiusting*/
+
+}
+
+    h1{
+    color: rgb(194, 96, 96); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;    
+        font-size: 100px;
+        border-top-style: ridge ;/*adds border tat the top*/
+        border-bottom-style:ridge ;
+        border-left-style: ridge ;
+        border-right-style: ridge ;
+        border-color: goldenrod;
+        border-width: 5px;/*The unono ya the border*/
+        /* can use this instead for easier border installation (border-style: ridge )double; */
+    text-shadow: 5px 5px 5px rgb(110, 107, 107), 0px -5px 5px white; /*shadow.makes it  First number puts shadow either right or left second number puts it either top or bottom lat number determines the thickness of the shadow a higher number and the shadow*/
+   
+
+    }
+    h1:hover{
+        box-shadow: 5px 05px 5px black;
+    }
+
+    p{
+        background:linear-gradient( rgb(109, 31, 31),rgb(43, 69, 140));
+        background-repeat: no-repeat;  
+        background-attachment: fixed;
+
+background-color:antiquewhite;
+color:black;
+border-style: groove; /*all paragraphs will have a dotted border*/
+border-color: goldenrod ;
+border-width: 5px;
+border-radius: 10px;/*to have smoother edges*/  
+padding: 10px; 
+}
+   /* #p1{ /*To target the specific element
+        background-color: blueviolet;
+    }*/
+    .odd{
+        background-color: aquamarine;
+        
+    }
+    .even{
+background-color: rgb(154, 193, 37);
+    }
+
+    li:nth-child(even){ /*pseudo classes*/
+        background-color: green;
+    }
+    li:nth-child(odd){
+        background-color: greenyellow;
+    }

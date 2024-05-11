@@ -1,0 +1,57 @@
+
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: rgb(244, 235, 235);
+}
+.box{
+   /* width: 33.3;
+    height: 33.3px;
+    border: 1px solid;
+    text-align: center;
+    background: tomato;
+    background-position: center;*/
+    background-size: cover;
+float:left;   /*wraps elements around pictures*/
+
+}
+p{
+    /*clear: right;if you want  words  to stop floating and wrapping around image*/
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 50%;
+  /*margin: 40%;/*this specific one */
+    background: yellowgreen;
+    padding: 10px;
+    margin: 20%;
+}
+
+#box4{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: relative;
+    top: 60px;
+}
+#box5{
+    border:1px solid;
+    height: 100px;
+    width: 100px;
+background-color: blue;
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 50%;
+     background:burlywood;
+     margin: 20%;
+     padding: 20px ;
+}
